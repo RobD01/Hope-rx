@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style Import -->
+
+    <link rel="stylesheet" href="style/style-import.css" />
+
+    <my-title></my-title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar">
+      <div class="navbar-container">
+        <navbar-logo></navbar-logo>
+
+        <ul class="navbar-nav-left">
+          <my-navbar></my-navbar>
+        </ul>
+
+        <ul class="navbar-nav-right">
+          <navbar-right>
+        </ul>
+
+        <!-- Mobile Nav Bar -->
+        <button type="button" class="hamburger" id="menu-btn">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <my-navbar></my-navbar>
+      </ul>
+      <div class="mobile-menu-bottom">
+        <navbar-right>
+      </div>
+    </div>
+
+    <!-- Body -->
+
+    <!-- Box A -->
+    <section class="box bg-primary text-center grid-col-2">
+      <img
+        src="https://images.pexels.com/photos/161688/medical-tablets-pills-drug-161688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Ao Dai"
+      />
+      <div class="box-text">
+        <h2 class="text-lg">Accepts most insurance</h2>
+        <p class="text-md">
+          Medicare, Medi-cal, and Commercial Insurance. <br>
+          Free delivery within a 3 mile radius.
+        </p>
+        
+      </div>
+    </section>
+
+    <!-- Box B -->
+    <section class="box bg-secondary text-center grid-col-2 grid-reversed">
+      <img
+        src="https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Ao Dai"
+      />
+      <div class="box-text">
+        <h2 class="text-lg">Covid-19 Tests and Vaccinations</h2>
+        <p class="text-md">
+          Flu shots, shingles, Covid-19 Vaccine, Covid-19 at home test kits .
+        </p>
+        
+      </div>
+    </section>
+
+    <!-- Box C -->
+    <section class="box bg-primary text-center grid-col-2">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.077060170786!2d-117.97941159999999!3d33.7586745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd27ac97980461%3A0xae98af438f9e80db!2sXuan%20Loan%20Fabrics!5e0!3m2!1sen!2sus!4v1662959133252!5m2!1sen!2sus"
+        width="100%"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="box-text">
+        <h2 class="text-lg">Chapman Plaza</h2>
+        <p class="text-md">10084 Chapman Ave, Garden Grove, CA</p>
+        <p class="text-md">Near Wendys and Chevron</p>
+        <button class="btn btn-light-outline">Call Now</button>
+      </div>
+  
+    </section>
+
+   
+
+    <!-- Footer -->
+
+    <my-footer></my-footer>
+
+    <script src="components/script.js"></script>
+    <script src="components/title.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/navbar-logo.js"></script>
+    <script src="components/navbar-right.js"></script>
+    <script src="components/footer.js"></script>
+  </body>
+</html>
