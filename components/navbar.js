@@ -5,9 +5,9 @@ class Navbar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `        
-        <li><a href="services.html">Services</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>    
+      <li><a href="services.html">Services</a></li> 
+      <li><a href="contact.html">Contact</a></li>
 `;
   }
 }

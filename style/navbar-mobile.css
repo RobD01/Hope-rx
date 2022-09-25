@@ -4,8 +4,11 @@
   cursor: pointer;
   width: 1.5rem;
   height: 1.5rem;
-  position: relative;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
   background: none;
+
   border: none;
   z-index: 10;
   transition: all 0.25s;
@@ -46,7 +49,7 @@
 }
 
 .mobile-menu {
-  position: fixed;
+  position: absolute;
   background-color: var(--color-third);
   right: 0;
   top: 4.5rem;
@@ -89,6 +92,6 @@
 .hidden {
   transform: translateX(100%);
 }
-.no-scroll {
+/* .no-scroll {
   overflow: hidden;
-}
+} */

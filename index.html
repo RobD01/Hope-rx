@@ -15,35 +15,36 @@
     <!-- Nav Bar -->
 
     <nav class="navbar">
-      <div class="navbar-container">
+      <!-- Mobile Nav Bar -->
+      <button type="button" class="hamburger" id="menu-btn">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+
+      <div class="navbar-container hidden" id="menu">
         <navbar-logo></navbar-logo>
 
         <ul class="navbar-nav-left">
-          <my-navbar></my-navbar>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
 
         <ul class="navbar-nav-right">
-          <navbar-right>
-        </ul>
+          <a
+            href="https://goo.gl/maps/yVrQfXVVBu9SUyH88"
+            class="btn btn-dark-outline"
+            target="_blank"
+            >Navigate</a
+          >
 
-        <!-- Mobile Nav Bar -->
-        <button type="button" class="hamburger" id="menu-btn">
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
-        </button>
+          <a href="tel:7144626333" class="btn btn-dark-outline" target="_blank">
+            Call Now
+          </a>
+        </ul>
       </div>
     </nav>
-
-    <!-- Mobile Menu -->
-    <div class="mobile-menu hidden" id="menu">
-      <ul>
-        <my-navbar></my-navbar>
-      </ul>
-      <div class="mobile-menu-bottom">
-        <navbar-right>
-      </div>
-    </div>
 
     <!-- Body -->
 
@@ -56,10 +57,9 @@
       <div class="box-text">
         <h2 class="text-lg">Accepts most insurance</h2>
         <p class="text-md">
-          Medicare, Medi-cal, and Commercial Insurance. <br>
+          Medicare, Medi-cal, and Commercial Insurance. <br />
           Free delivery within a 3 mile radius.
         </p>
-        
       </div>
     </section>
 
@@ -74,14 +74,13 @@
         <p class="text-md">
           Flu shots, shingles, Covid-19 Vaccine, Covid-19 at home test kits .
         </p>
-        
       </div>
     </section>
 
     <!-- Box C -->
     <section class="box bg-primary text-center grid-col-2">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.9334039419355!2d-117.95943598479188!3d33.78821788067863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd28684ae4e50d%3A0x894c48ecd9ebd344!2s10084%20Chapman%20Ave%2C%20Garden%20Grove%2C%20CA%2092840!5e0!3m2!1sen!2sus!4v1663962547400!5m2!1sen!2sus" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.9334039419355!2d-117.95943598479188!3d33.78821788067863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd28684ae4e50d%3A0x894c48ecd9ebd344!2s10084%20Chapman%20Ave%2C%20Garden%20Grove%2C%20CA%2092840!5e0!3m2!1sen!2sus!4v1663962547400!5m2!1sen!2sus"
         width="100%"
         height="350"
         style="border: 0"
@@ -95,10 +94,7 @@
         <p class="text-md">Near Wendys and Chevron</p>
         <button class="btn btn-light-outline">Call Now</button>
       </div>
-  
     </section>
-
-   
 
     <!-- Footer -->
 
