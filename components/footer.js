@@ -6,11 +6,7 @@ class Footer extends HTMLElement {
     <footer class="footer">
       <div class="footer-container">
         <div class="social">
-          <a href="" 
-            ><img
-              src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png"
-              alt="Instagram"
-          /></a>
+          
         </div>
         <p class="text-center">
           Copyright

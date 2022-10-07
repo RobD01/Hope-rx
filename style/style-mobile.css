@@ -18,13 +18,14 @@
     align-items: center;
     position: absolute;
     background-color: var(--color-third);
-    right: 0;
-    top: 4.5rem;
+    right: 2rem;
+    top: 4rem;
     padding: 2rem;
-    width: 40%;
-    height: 55%;
+    width: auto;
+    height: auto;
     box-shadow: var(--shadow);
     transition: all 0.3s;
+    margin: auto;
   }
 
   .navbar-nav-left,
@@ -40,7 +41,8 @@
   }
 
   .hidden {
-    transform: translateX(100%);
+    transform: scale(0);
+    transform-origin: top right;
   }
 
   .hamburger {
