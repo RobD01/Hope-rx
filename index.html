@@ -65,10 +65,26 @@
 
     <!-- Box B -->
     <section class="box bg-secondary text-center grid-col-2 grid-reversed">
+      <!-- Trigger the Modal -->
       <img
-        src="https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        alt="Ao Dai"
+        id="myImg"
+        src="./image/FLYERS.jpg"
+        alt="Flier"
+        style="width: 100%; height: 100%"
       />
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
       <div class="box-text">
         <h2 class="text-lg">Covid-19 Tests and Vaccinations</h2>
         <p class="text-md">
@@ -89,7 +105,7 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <div class="box-text">
-        <h2 class="text-lg">Chapman Plaza</h2>
+        <h2 class="text-lg">Hope Rx Pharmacy</h2>
         <p class="text-md">10084 Chapman Ave, Garden Grove, CA</p>
         <p class="text-md">Near Wendys and Chevron</p>
         <button class="btn btn-light-outline">Call Now</button>
